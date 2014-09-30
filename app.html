@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body onload="myClock()">
+<body >
+
+<!--usage of mouse over and mouse out methods-->
 
 <h1 onmouseover="style.color = 'Red'" onmouseout="style.color = 'Black'"> Lets Practice JavaScript</h1>
 
 <p> Hover On the headline to change its color.</p>
 
+<!-- Usage of single mouse click and double mouse click methods -->
+
 <button onclick =clearInterval(start) ondblclick="setInterval(function() {myClock()}, 500)"> Click here to stop
     and double click to start timer !!</button>
 
 <p id="demo"></p>
+
+<!-- A table with one row and 3 columns having different colours
+        and usage of mouse over and mouse out methods-->
 
 <p><strong> Hover on the boxes to change background color of this page</strong></p>
 
@@ -31,9 +38,13 @@
     </tr>
 </table>
 
+<!-- An input text box to display pop up functionality-->
+
 <p> Please write your <b>NAME</b></p>
 
 <input type="text" value="Please write your name" onchange= "myFunThanks()">
+
+<!-- JavaScript source address -->
 
 <script src="app.js"></script>
 
