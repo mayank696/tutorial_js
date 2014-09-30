@@ -1,3 +1,4 @@
+/*App Js*/
 var start = setInterval(function() {myClock()}, 500);
 
 function myClock(){
