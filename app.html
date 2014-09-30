@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="myClock()">
+
+<h1 onmouseover="style.color = 'Red'" onmouseout="style.color = 'Black'"> Lets Practice JavaScript</h1>
+
+<p> Hover On the headline to change its color.</p>
+
+<button onclick =clearInterval(start) ondblclick="setInterval(function() {myClock()}, 500)"> Click here to stop
+    and double click to start timer !!</button>
+
+<p id="demo"></p>
+
+<p><strong> Hover on the boxes to change background color of this page</strong></p>
+
+<table style="width:300px;height:100px">
+    <tr>
+        <td onmouseover="changeBg(this.style.backgroundColor)"
+            onmouseout="changeBg('transparent')"
+            style = 'background-color: PaleGreen'></td>
+        <td onmouseover="changeBg(this.style.backgroundColor)"
+            onmouseout="changeBg('transparent')"
+            style = "background-color: LightBlue"</td>
+        <td onmouseover="changeBg(this.style.backgroundColor)"
+            onmouseout="changeBg('transparent')"
+            style = "background-color: Silver"</td>
+    </tr>
+</table>
+
+<p> Please write your <b>NAME</b></p>
+
+<input type="text" value="Please write your name" onchange= "myFunThanks()">
+
+<script src="app.js"></script>
+
+</body>
+</html>
