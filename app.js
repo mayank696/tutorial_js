@@ -1,4 +1,4 @@
-/* Function for clock */
+/* Function for clock functionality*/
 
 var start = setInterval(function() {myClock()}, 500);
 
